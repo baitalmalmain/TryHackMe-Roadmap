@@ -202,9 +202,9 @@ So, what are you waiting for? Let’s grow this collection together, one lab at 
 
 - [ ] [🕵️ TryHackMe | How to use TryHackMe](https://tryhackme.com/room/howtousetryhackme)
 
-- [ ] [🕵️ TryHackMe | Tutorial](https://tryhackme.com/room/tutorial)
+- [x] [🕵️ TryHackMe | Tutorial](https://tryhackme.com/room/tutorial)
 
-- [ ] [🕵️ TryHackMe | OpenVPN](https://tryhackme.com/room/openvpn)
+- [x] [🕵️ TryHackMe | OpenVPN](https://tryhackme.com/room/openvpn)
 
 - [ ] [🕵️ TryHackMe | Learning Cyber Security](https://tryhackme.com/room/beginnerpathintro)
 
@@ -225,7 +225,7 @@ So, what are you waiting for? Let’s grow this collection together, one lab at 
 
 - [ ] [🕵️ TryHackMe | Linux Modules](https://tryhackme.com/room/linuxmodules)
   
-- [ ] [🕵️ TryHackMe | Linux Fundamentals Part 1](https://tryhackme.com/room/linuxfundamentalspart1)
+- [x] [🕵️ TryHackMe | Linux Fundamentals Part 1](https://tryhackme.com/room/linuxfundamentalspart1)
   
 - [ ] [🕵️ TryHackMe | Linux Fundamentals Part 2](https://tryhackme.com/room/linuxfundamentalspart2)  **🚨 Attention!** Multiple users have reported that this room is **no longer free.**
  
@@ -233,7 +233,7 @@ So, what are you waiting for? Let’s grow this collection together, one lab at 
 
 ## Windows Fundamentals
 
-- [ ] [🕵️ TryHackMe | Windows Fundamentals 1](https://tryhackme.com/room/windowsfundamentals1xbx)
+- [x] [🕵️ TryHackMe | Windows Fundamentals 1](https://tryhackme.com/room/windowsfundamentals1xbx)
   
 - [ ] [🕵️ TryHackMe | Windows Fundamentals 2](https://tryhackme.com/room/windowsfundamentals2x0x)
   
@@ -311,15 +311,15 @@ So, what are you waiting for? Let’s grow this collection together, one lab at 
 
 - [ ] [🕵️ TryHackMe | Introductory Networking](https://tryhackme.com/room/introtonetworking)
 
-- [ ] [🕵️ TryHackMe | What is Networking?](https://tryhackme.com/room/whatisnetworking)
+- [x] [🕵️ TryHackMe | What is Networking?](https://tryhackme.com/room/whatisnetworking)
 
 - [ ] [🕵️ TryHackMe | Networking](https://tryhackme.com/room/bpnetworking)
 
 - [ ] [🕵️ TryHackMe | Intro to LAN](https://tryhackme.com/room/introtolan) **🚨 Attention!** Multiple users have reported that this room is **no longer free.**
 
-- [ ] [🕵️ TryHackMe | HTTP in detail](https://tryhackme.com/room/httpindetail)
+- [x] [🕵️ TryHackMe | HTTP in detail](https://tryhackme.com/room/httpindetail)
 
-- [ ] [🕵️ TryHackMe | DNS in detail](https://tryhackme.com/room/dnsindetail)
+- [x] [🕵️ TryHackMe | DNS in detail](https://tryhackme.com/room/dnsindetail)
 
 - [ ] [🕵️ TryHackMe | Dumping Router Firmware](https://tryhackme.com/room/rfirmware)
 
