@@ -1,24 +1,38 @@
-import re
+import os
 
 def update_readme():
-    # 1. Read the current README
+    # 1. Read the README
+    if not os.path.exists("README.md"):
+        return
+        
     with open("README.md", "r", encoding="utf-8") as f:
-        content = f.read()
+        lines = f.readlines()
 
-    # 2. Count all occurrences of [x]
-    total_completed = content.count("[x]")
+    # 2. Count every [x] in the entire file
+    # This counts your progress across all categories
+    total_completed = 0
+    for line in lines:
+        total_completed += line.count("[x]")
 
-    # 3. Update the "Total Rooms" line at the bottom of the table
-    # This looks for the line starting with "| Total Rooms:" and replaces the number after "= "
-    new_content = re.sub(
-        r"(\| \*\*Total Rooms:\*\*.*\|= )\*\*+= \d+\*\*", 
-        f"\\1**= {total_completed}**", 
-        content
-    )
+    # 3. Update the Statistics Table
+    new_lines = []
+    for line in lines:
+        # We look for the row that contains "Total Rooms:"
+        if "**Total Rooms:**" in line:
+            # We split the row by the "|" symbol
+            parts = line.split("|")
+            if len(parts) >= 4:
+                # parts[3] is the third column (Completed by Me)
+                # We force it to update to your new count
+                parts[3] = f" **= {total_completed}** "
+                line = "|".join(parts)
+        new_lines.append(line)
 
-    # 4. Save the changes back to the file
+    # 4. Save the changes
     with open("README.md", "w", encoding="utf-8") as f:
-        f.write(new_content)
+        f.writelines(new_lines)
+    
+    print(f"Successfully counted {total_completed} rooms.")
 
 if __name__ == "__main__":
     update_readme()
