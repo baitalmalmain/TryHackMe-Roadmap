@@ -241,7 +241,7 @@ So, what are you waiting for? Let’s grow this collection together, one lab at 
 
 ## Basics Rooms
 
-- [ ] [🕵️ TryHackMe | Hypervisor Internals](https://tryhackme.com/room/hypervisorinternals)
+- [x] [🕵️ TryHackMe | Hypervisor Internals](https://tryhackme.com/room/hypervisorinternals)
   
 - [ ] [🕵️ TryHackMe | Splunk: Exploring SPL](https://tryhackme.com/room/splunkexploringspl)
 
