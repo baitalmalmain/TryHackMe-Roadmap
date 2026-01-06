@@ -90,7 +90,7 @@ If you appreciate this repository and want to show your support, you can do so t
 | **[Introductory Rooms](#intro-rooms)** |     21       |            2                |
 | **[Linux Fundamentals](#linux-fundamentals)** |      4       |            1                |
 | **[Windows Fundamentals](#windows-fundamentals)**|      3       |            1                |
-| **[Basic Rooms](#basics-rooms)** |     14       |            0                |
+| **[Basic Rooms](#basics-rooms)** |     14       |            1                |
 | **[Reconnaissance](#recon)** |     10       |            0                |
 | **[Scripting](#scripting)** |      7       |            0                |
 | **[Networking](#networking)** |      7       |            3                |
@@ -115,7 +115,7 @@ If you appreciate this repository and want to show your support, you can do so t
 | **[Insane CTF](#insane-ctf)** |      1       |            0                |
 | **[Misc](#misc)** |     43       |            0                |
 | **[Special Events](#special-events)** |     12       |            0                |
-| **Total Rooms:** |    **= 502** |          **= 7** |
+| **Total Rooms:** |    **= 502** |          **= 8** |
 
 ---
 
